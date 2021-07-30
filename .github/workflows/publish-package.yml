@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  publish-katydid-web-client-image:
+  publish-demo-project-image:
     runs-on: ubuntu-latest
 
     steps:
