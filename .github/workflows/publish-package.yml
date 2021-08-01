@@ -1,4 +1,4 @@
-name: publish
+name: publish yadda yadda
 
 on:
   push:
@@ -22,4 +22,6 @@ jobs:
       - name: Build Demo Project image
         run: |
           docker build . --tag ghcr.io/ashikka/demo-project
+      - name: Push Demo Project image
+        run: |
           docker push ghcr.io/ashikka/demo-project

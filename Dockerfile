@@ -4,8 +4,7 @@ FROM node:lts-alpine
 # set working directory
 WORKDIR /
 
-# add `/app/node_modules/.bin` to $PATH
-ENV PATH /node_modules/.bin:$PATH
+# set environment variables 
 ENV PORT 3000
 
 # install app dependencies
